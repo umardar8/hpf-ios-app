@@ -1,0 +1,19 @@
+{
+  "appId": "com.paschallgamehub.highpowerfootball",
+  "appName": "High Power Football",
+  "webDir": "www",
+  "server": {
+    "url": "https://paschallgamehub.cloud/football/index.html",
+    "cleartext": false
+  },
+  "ios": {
+    "contentInset": "automatic"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "backgroundColor": "#000000",
+      "showSpinner": false
+    }
+  }
+}
