@@ -1,0 +1,108 @@
+HIGH POWER FOOTBALL — INSTRUCTIONS FOR MAC
+
+Hello Jayson, The code and iOS project for our HPF ios app have already been prepared
+but we need to complete some steps on a MAC in order to compile our ios app.
+
+
+WHAT YOU NEED
+-------------
+
+- A Mac
+- An iPhone
+- Your Apple Developer account
+- Access to this project files uploaded on GitHub:
+  https://github.com/umardar8/hpf-ios-app
+
+
+STEP 1 — INSTALL XCODE
+----------------------
+
+1. Install Xcode from the Mac App Store.
+2. Open Xcode once.
+3. Allow Xcode to install any extra components it requests.
+4. Sign in with your Apple Developer account under:
+   Xcode > Settings > Accounts
+
+
+STEP 2 — DOWNLOAD THE PROJECT
+-----------------------------
+
+1. Open the GitHub link above.
+2. Click the Code button.
+3. Click Download ZIP.
+4. Open the downloaded ZIP.
+5. Open the hpf-ios-app folder, followed by ios and then App.
+6. Double-click App.xcodeproj to open it in Xcode.
+
+If Xcode needs to download or resolve packages, allow it to finish before
+continuing.
+
+
+STEP 3 — SELECT YOUR APPLE TEAM
+-------------------------------
+
+In Xcode:
+
+1. Select the blue App project icon in the left sidebar.
+2. Select the App target.
+3. Open Signing & Capabilities.
+4. Turn on Automatically manage signing.
+5. Select your Apple Developer team.
+
+The bundle identifier should remain:
+
+  com.paschallgamehub.highpowerfootball
+
+If Xcode shows a red signing error, stop and send a screenshot back to me. You are not
+expected to fix it yourself.
+
+
+STEP 4 — RUN THE APP ON YOUR IPHONE
+-----------------------------------
+
+1. Connect your iPhone to the Mac.
+2. Unlock the iPhone and select Trust if asked.
+3. Near the top of Xcode, select your iPhone as the device.
+4. Press the Run button.
+5. Wait for High Power Football to open on the iPhone.
+
+If the iPhone asks you to enable Developer Mode, follow its instructions and
+then press Run in Xcode again.
+
+
+STEP 5 — CHECK THE FIRST BUILD
+------------------------------
+
+Please check only these basics:
+
+- The app opens.
+- The High Power Football main menu appears.
+- The game has sound.
+- The main menu works with VoiceOver.
+
+Please note which checks passed. Send a screenshot of any error or note down the unexpected
+behaviour. I will diagnose it and provide the next exact step.
+
+
+STEP 6 — SEND THE PROJECT BACK
+-------------------------------------------
+
+Please follow these steps after testing is complete:
+
+1. Close Xcode.
+2. Return to the main hpf-ios-app folder.
+3. Right-click the folder and select Compress.
+4. Send the resulting ZIP back through email.
+
+Please do not delete or rename files inside the project.
+
+
+PLEASE STOP AND CONTACT IF
+-----------------------------
+
+- Xcode displays a red build or signing error.
+- The app does not open on the iPhone.
+- The game or sound does not load.
+- You are unsure what to select.
+
+Please do not submit the app to TestFlight or the App Store yet.
