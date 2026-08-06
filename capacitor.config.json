@@ -4,7 +4,10 @@
   "webDir": "www",
   "server": {
     "url": "https://paschallgamehub.cloud/football/index.html",
-    "cleartext": false
+    "cleartext": false,
+    "allowNavigation": [
+      "paschallgamehub.cloud"
+    ]
   },
   "ios": {
     "contentInset": "automatic"
