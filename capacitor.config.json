@@ -3,7 +3,7 @@
   "appName": "High Power Football",
   "webDir": "www",
   "server": {
-    "url": "https://paschallgamehub.cloud/football/index.html",
+    "url": "https://paschallgamehub.cloud/football/index.html?capacitor=1",
     "cleartext": false,
     "allowNavigation": [
       "paschallgamehub.cloud"
