@@ -1,0 +1,30 @@
+﻿{
+  "identifier": "B95F57CE",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "4.99",
+      "familyShareable": false,
+      "internalID": "HPF_PREMIUM_01",
+      "localizations": [
+        {
+          "description": "Unlock Season Mode, Pro Difficulty, and Global Leaderboards",
+          "displayName": "High Power Football Premium",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.paschallgamehub.highpowerfootball.premium",
+      "referenceName": "High Power Football Premium Unlock",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_failTransactionsEnabled": false,
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

@@ -7,7 +7,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Fallback registration in case rootViewController is initialized directly
+        if let bridgeVC = window?.rootViewController as? CAPBridgeViewController {
+            bridgeVC.bridge?.registerPluginInstance(HPFStoreKitPlugin())
+        }
         return true
     }
 
