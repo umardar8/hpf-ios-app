@@ -1,4 +1,4 @@
-﻿import Foundation
+import Foundation
 import Capacitor
 import StoreKit
 
@@ -7,10 +7,10 @@ public class HPFStoreKitPlugin: CAPPlugin, CAPBridgedPlugin {
     public let identifier = "HPFStoreKitPlugin"
     public let jsName = "HPFStoreKit"
     public let pluginMethods: [CAPPluginMethod] = [
-        CAPPluginMethod(name: "canMakePayments", returnType: CAPPluginMethodReturnPromise),
-        CAPPluginMethod(name: "checkPremiumStatus", returnType: CAPPluginMethodReturnPromise),
-        CAPPluginMethod(name: "purchaseProduct", returnType: CAPPluginMethodReturnPromise),
-        CAPPluginMethod(name: "restorePurchases", returnType: CAPPluginMethodReturnPromise)
+        CAPPluginMethod(name: "canMakePayments", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "checkPremiumStatus", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "purchaseProduct", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "restorePurchases", returnType: CAPPluginReturnPromise)
     ]
 
     private let defaultProductId = "com.paschallgamehub.highpowerfootball.premium"
